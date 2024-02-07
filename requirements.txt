@@ -7,7 +7,6 @@ pandas==2.2.0
 matplotlib==3.8.2
 seaborn==0.13.2
 scikit-learn==1.4.0
-opencv-python==4.9.0.80
+opencv-python==4.9.0
 tqdm==4.66.1
 pillow==10.2.0
-cv2==4.9.0
