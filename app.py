@@ -7,7 +7,7 @@ from keras.models import load_model as load_saved_model  # Rename load_model fun
 @st.cache(allow_output_mutation=True)
 def load_model():
     try:
-        return load_saved_model("final_recognition_model.h5")  # Use the renamed function
+        return load_saved_model("grand_final_recognition_model.h5")  # Use the renamed function
     except Exception as e:
         st.error("Failed to load the model. Please try again later.")
         st.write(e)
